@@ -1,0 +1,50 @@
+<!-- When the screen has a width bigger than 768px, the order od the image and description in the second column (.single-box:nth-child(2)) will change by ussing CSS-->
+<!-- This project also includes an example of how to use the library baguetteBox.js to create a lightbox-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Changing Image and Div Position</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<!-- Adding baguetteBox CDN css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	</head>
+	<body>
+		<div class="box-information container">
+			<div class="single-box">
+				<a href="img/1.jpg">
+					<img src="img/1.jpg">
+				</a>
+				<div class="content-box">
+					<h3>Title Description</h3>
+					<p>This is the information or description related to the image</p>
+				</div>
+			</div>
+			<div class="single-box">
+				<a href="img/2.jpg">
+					<img src="img/2.jpg">
+				</a>
+				<div class="content-box">
+					<h3>Title Description</h3>
+					<p>This is the information or description related to the image</p>
+				</div>
+			</div>
+			<div class="single-box">
+				<a href="img/3.jpg">
+					<img src="img/3.jpg">
+				</a>
+				<div class="content-box">
+					<h3>Title Description</h3>
+					<p>This is the information or description related to the image</p>
+				</div>
+			</div>
+		</div>
+		<!-- Adding baguetteBox CDN js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+		<script>
+			baguetteBox.run('.box-information');
+		</script>
+	</body>
+</html>
