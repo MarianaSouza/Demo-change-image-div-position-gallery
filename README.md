@@ -4,4 +4,4 @@ When the screen is larger than 768px, the order od the image and description in 
 
 This project also includes an example of how to use the library baguetteBox.js to create a lightbox. Open the foolowing link and click in an image to see a nice lightbox.
 
-
+https://marianasouza.github.io/Demo-change-image-div-position-gallery/
