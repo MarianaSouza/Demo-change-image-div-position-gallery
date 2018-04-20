@@ -1,3 +1,7 @@
 # Changing the order of an image and its description in a gallery
 
-Example of how to change the order of an image and its description in a gallery. HTML, CSS, and JS
+When the screen is larger than 768px, the order od the image and description in the second column (.single-box:nth-child(2)) will change by ussing CSS. Take a look at main.css lines 65-75
+
+This project also includes an example of how to use the library baguetteBox.js to create a lightbox. Open the foolowing link and click in an image to see a nice lightbox.
+
+
